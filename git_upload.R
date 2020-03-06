@@ -1,6 +1,6 @@
 ##### PREDICT THE PROBABILITY OF ANY TENNIS MATCH SET RESULT, BASED ON THE FIXED PROBABILITY OF A PLAYER WINNING ONE POINT #####
 
-#CLICK SOURCE TO RUN SCRIPT WHILE WAITING FOR USER RESPONSES (https://stackoverflow.com/questions/27112370/make-readline-wait-for-input-in-r)
+#IN RSTUDIO, CLICK SOURCE TO RUN SCRIPT WHILE WAITING FOR USER RESPONSES (https://stackoverflow.com/questions/27112370/make-readline-wait-for-input-in-r)
 
 setwd("C:/Users/User/Desktop/Chalkboard ideas and res asst applications") #temp file location before GitHub uplod
 rm(list=ls())
