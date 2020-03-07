@@ -2,7 +2,6 @@
 
 #IN RSTUDIO, CLICK SOURCE TO RUN SCRIPT WHILE WAITING FOR USER RESPONSES (https://stackoverflow.com/questions/27112370/make-readline-wait-for-input-in-r)
 
-setwd("C:/Users/User/Desktop/Chalkboard ideas and res asst applications") #temp file location before GitHub uplod
 rm(list=ls())
 library(ggplot2)
 
