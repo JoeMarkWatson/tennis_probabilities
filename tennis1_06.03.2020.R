@@ -133,7 +133,7 @@ plot_frame$probability <- ifelse(plot_frame$result=="6-0",P_DW^6,
                                   ifelse(plot_frame$result=="5-7",252*(P_MW^7)*(P_DW^5),
                                    ifelse(plot_frame$result=="6-7",P_6_6*P_MwT,NA
                                                                  ))))))))))))))
-plot_frame$selected <- ifelse(plot_frame$result==sr,"selected result","other results")
+plot_frame$selected <- ifelse(plot_frame$result==sr,"selected set result","other set results")
 plot_frame$result <- factor(plot_frame$result, levels = plot_frame$result)
 
 p<-ggplot(data=plot_frame, aes(x=result, y=probability, fill = selected)) + 
