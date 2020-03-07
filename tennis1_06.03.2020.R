@@ -110,7 +110,7 @@ if (sr == "6-0") {
   answer<-P_6_6*P_MwT
 } else {print("error")}
 
-print(paste("If the probability that Player A wins each point is ",d,", there is a ",answer," chance that the set concludes with them having won ",n," games and Player B having won ",q," games.",sep = ""))
+final_printout<-paste("If the probability that Player A wins each point is ",d,", there is a ",answer," chance that the set concludes with them having won ",n," games and Player B having won ",q," games.",sep = "")
 
 ##### GRAPHIC #####
 #graphic shows the likelihood of your desired set result vs other possible set results, based on the selected point winning probability #####
@@ -145,3 +145,5 @@ p + theme_minimal()
  # gp<-ggplot(data.frame(x=c(0, 1)), aes(x=x)) + 
  #   stat_function(fun=EqDW)
  # gp + theme_minimal()
+
+final_printout
